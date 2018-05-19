@@ -14,6 +14,7 @@ __Table of Contents__
   - [やりたいことをREADMEに書く](#やりたいことをreadmeに書く)
   - [RedmineとGitHubにプロジェクトを作成する](#redmineとgithubにプロジェクトを作成する)
     - [プロジェクトの命名](#プロジェクトの命名)
+  - [Railsプロジェクトを作成する](#railsプロジェクトを作成する)
 
 <!-- /TOC -->
 
@@ -152,3 +153,10 @@ READMEテンプレートは、[RichardLitt/standard-readme: Standard Readme Styl
 - [Igor Naming Guide Naming Companies](https://www.igorinternational.com/process/naming-guide-product-company-names.php)
 - [Naming Your Software Project in 5 Minutes or Less | Slaptijack](https://slaptijack.com/programming/naming-your-software-project-in-5-minutes-or-less/)
 
+### Railsプロジェクトを作成する
+
+次のコマンドを実行して、Railsプロジェクトを作成します。この時、READMEが上書きされてしまうので、一時的に移動しておいて後で上書きするなどしてください。
+
+```
+$ docker run --rm -v $(pwd):/var/myapp -w /var/myapp ruby /bin/sh -c "gem install rails && rails new . --database=postgresql"
+```
