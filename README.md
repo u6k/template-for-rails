@@ -4,14 +4,16 @@
 
 > 自分流のRuby on Railsプロジェクトを開始する手順
 
-<!-- TOC depthFrom:2 orderedList:true -->
+__Table of Contents__
 
-1. [Background](#background)
-2. [Requirement](#requirement)
-3. [Steps](#steps)
-  1. [やりたいことをREADMEに書く](#やりたいことをreadmeに書く)
-  2. [RedmineとGitHubにプロジェクトを作成する](#redmineとgithubにプロジェクトを作成する)
-    1. [プロジェクトの命名](#プロジェクトの命名)
+<!-- TOC depthFrom:2 -->
+
+- [Background](#background)
+- [Requirement](#requirement)
+- [Steps](#steps)
+  - [やりたいことをREADMEに書く](#やりたいことをreadmeに書く)
+  - [RedmineとGitHubにプロジェクトを作成する](#redmineとgithubにプロジェクトを作成する)
+    - [プロジェクトの命名](#プロジェクトの命名)
 
 <!-- /TOC -->
 
